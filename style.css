@@ -1,0 +1,64 @@
+body {
+margin: 0;
+padding: 0;
+background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+header {
+background-color: #222222;
+border: 2px solid #24ff2e;
+text-align: center;
+padding: 10px 0;
+color: #b0c0da;
+
+}
+
+main {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+}
+
+.game {
+width: 45%;
+margin: 1em;
+padding: 1em;
+background-color: #00185d;
+color:#ffffff;
+border: none;
+border-radius: 8px;
+outline: 1px solid #003dec;
+box-shadow: 250,000,50
+font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  background url:('Pi')
+}
+}
+input{
+  background-color: #4b4b4b;
+  outline: 1px solid;
+  border:none;
+  border-radius: 12px;
+margin-right: -80;
+}
+@media screen and (max-width: 768px) {
+.game {
+width: 100%;
+}
+button{
+  background-color: #2b2b2b;
+  color:#438aff;
+  border-radius: 30px;
+  border:none;
+height:30px;
+width:30px;
+outline: 1px solid #0051d7;
+}
+.sera{
+  background-color: #0cf578;
+  
+  
+}
+}
